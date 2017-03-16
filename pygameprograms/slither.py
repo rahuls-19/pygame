@@ -13,7 +13,7 @@ while not gameExit:
         if event.type == pygame.QUIT:
             gameExit = True
     gameDisplay.fill(blue)
-    
+    pygame.draw.rect(gameDisplay,black,[400,200,25,25])
     pygame.display.update()
 pygame.quit()
 
